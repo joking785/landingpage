@@ -1,0 +1,189 @@
+a {
+    text-decoration: none;
+}
+
+.body {
+    font-family: 'Calibri', sans-serif;
+}
+
+.header {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin: 0 auto;
+    width: 940px;
+    padding-bottom: 100px;
+}
+
+.header__nav {
+    font-weight: bold;
+    list-style-type: none;
+    color: #828282;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    border-bottom: 1px solid;
+    border-color: #828282;
+}
+
+.header__nav-item-a:hover, .header__nav-item--active {
+    text-decoration: none;
+    color: black;
+}
+
+.header__nav-item-a {
+    text-decoration: none;
+    color: #828282;
+}
+
+.header__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:41px;
+    padding-bottom: 41px;
+}
+
+.header__title {
+    line-height: 1em;
+    font-size: 47px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+.header__text {
+    text-align: left;
+}
+
+.header__lang {
+    writing-mode: vertical-lr;
+    transform:rotate(270deg);
+}
+.header__lang-line {
+    writing-mode: vertical-lr;
+    transform:rotate(270deg);
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.header__lang-button {
+    display:flex;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.header__lang-button:hover, header__lang-button--active {
+    font-weight: bold;
+}
+
+.main__about {
+    font-size: 18px;
+    background-color: #F6F6F6;
+    justify-content: center;
+    text-align: center;
+    padding-top:120.25px;
+    padding-bottom: 107px;
+    padding-left: 480px;
+    padding-right: 480px;
+}
+
+.main {
+    text-align: center;
+}
+
+.main__skills {
+    margin: 0 auto;
+    width: 940px;
+    padding-bottom: 100px;
+    padding-top: 91px;
+}
+
+.main__text-skills {
+    margin-bottom: 0;
+    padding-bottom: 83px;
+}
+
+.main__app {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__app-stars {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.main__title {
+    font-size: 34px;
+    margin-top: 0px;
+    margin-bottom: 47px;
+}
+
+.main__text {
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.main__portfolio {
+    padding-top: 113px;
+    background-color: #F6F6F6;
+}
+
+.main__portfolio-text {
+    margin-top: 45px;
+    margin-bottom: 0px;
+    padding-bottom: 100px;
+    text-decoration: underline;
+}
+
+.footer {
+    width: 350px;
+    margin: 0 auto;
+    padding-top: 114px;
+    text-align: center;
+    padding-bottom: 123px;
+}
+
+.footer__contacts-title {
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.footer__contacts-text {
+    margin: 0px;
+    padding-bottom: 30px;
+}
+
+.footer__button {
+    margin: 0;
+    margin-bottom: 86px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    background: black;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    width: 180px;
+    height: 42px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer__social {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
