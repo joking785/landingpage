@@ -26,9 +26,13 @@
                             <button class="header__lang-button header__lang-button--active" type="button">ENG</button>                                
                     </div>
             </div>
-            <div class="header__main-img">
-                <img src="img/mainimg.png" alt="DenisNovik">
-            </div>
+            <picture>
+                <source 
+                srcset="./img/mainimg.png"
+                media="(min-width:940px)"
+                />
+                <img src="img/mainimglow.png" alt="DenisNovik">
+            </picture>
         </header>
         <main class="main">
             <section class="main__about">
@@ -89,25 +93,37 @@
             </section>
             <section class="main__portfolio">
                 <h2 class="main__title">Portfolio</h2>
-                <div class="main__portfolio-imagetext">
-                    <img src="img/fashion.png">
+                <picture>
+                    <source 
+                    srcset="./img/fashion.png"
+                    media="(min-width:940px)"
+                    />
+                    <img src="img/fashionlow.png" alt="Fashion">
                     <p class="main__portfolio-text">Online fashion store - Homepage</p>
-                </div>
-                <div class="main__portfolio-imagetext">
-                    <img src="img/reebok_web.png">
+                </picture>
+                <picture>
+                    <source 
+                    srcset="./img/reebok_web.png"
+                    media="(min-width:940px)"
+                    />
+                    <img src="img/reebok_web_low.png" alt="Reebok">
                     <p class="main__portfolio-text">Reebok Store - Concept</p>
-                </div>
-                <div class="main__portfolio-imagetext">
-                    <img src="img/braun.png">
+                </picture>
+                <picture>
+                    <source 
+                    srcset="./img/braun.png"
+                    media="(min-width:940px)"
+                    />
+                    <img src="img/braun_low.png" alt="Braun">
                     <p class="main__portfolio-text">Braun Landing Page - Concept</p>
-                </div>
+                </picture>
             </section>
         </main>
         <footer class="footer">
             <div class="footer__contacts">
                 <h1 class="footer__contacts-title">Contacts</h1>
                 <p class="footer__contacts-text">Want to know more or just chat?<br>You are welcome!</p>
-                <button class="footer__button" type="button">Send message</button>
+                <button class="footer__button" type="button" name="sendmessage">Send message</button>
             </div>
             <div class="footer__social">
                 <img src="img/linkedin.svg">
