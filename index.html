@@ -26,9 +26,13 @@
                             <button class="header__lang-button header__lang-button--active" type="button">ENG</button>                                
                     </div>
             </div>
-            <div class="header__main-img">
-                <img src="img/mainimg.png" alt="DenisNovik">
-            </div>
+            <picture>
+                <source 
+                srcset="./img/mainimg.png"
+                media="(min-width:940px)"
+                />
+                <img src="img/mainimglow.png" alt="DenisNovik">
+            </picture>
         </header>
         <main class="main">
             <section class="main__about">
@@ -107,7 +111,7 @@
             <div class="footer__contacts">
                 <h1 class="footer__contacts-title">Contacts</h1>
                 <p class="footer__contacts-text">Want to know more or just chat?<br>You are welcome!</p>
-                <button class="footer__button" type="button">Send message</button>
+                <button class="footer__button" type="button" name="sendmessage">Send message</button>
             </div>
             <div class="footer__social">
                 <img src="img/linkedin.svg">
