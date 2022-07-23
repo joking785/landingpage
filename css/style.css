@@ -121,6 +121,11 @@ a {
     justify-content: space-between;
 }
 
+.main__app-title {
+    display: block;
+    margin: 16px 0;
+}
+
 .main__app-stars {
     display: flex;
     justify-content: space-between;
